@@ -59,7 +59,7 @@ print("Available specialization: ", Student.getspecs())
 # Instantiatizing with invalid specs
 # This will raise an error so comment
 # it out before run
-student2 = Student("Bunmi", "Full Stack")
+# student2 = Student("Bunmi", "Full Stack")
 
 
 student1 = Student("Ayobami", "Backend")

@@ -44,9 +44,10 @@ student1 = Student("Ayobami", 10, "Backend")
 print(student1.getcohort())
 student1.changecohort(9)
 print(student1.getcohort())
+print(student1.name)
 
 # Accessing the private attribute password
-print(student1.__password)  # Will get AttributeError no such attribute
+# print(student1.__password)  # Will get AttributeError no such attribute
 # This is because python as prefix the __password attribute with the class name
 # Which is called name mangling to prevent subclasses to overwrite the attribute
 print(student1._Student__password)  # This will print out the password
