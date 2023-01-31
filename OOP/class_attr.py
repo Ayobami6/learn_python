@@ -64,6 +64,8 @@ print("Available specialization: ", Student.getspecs())
 
 student1 = Student("Ayobami", "Backend")
 student3 = Student("Bunmi", "Frontend")
+student3.name = "Me"
+print(student3.name)
 
 studentlist = Student.getstudentlist()
 

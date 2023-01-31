@@ -38,6 +38,21 @@ class Student:
         # the class should be access internally only
         self._newcohort = cohort
 
+    # Creating a new attribute with getters and getters
+
+    # We use this  to work with our private instance attribute
+    # So when we use the dot notation  to access the password we get the value
+    @property  # password getter
+    def get_password(self):
+        return self.__password
+
+    # We use to set value to our private intsance attribute
+    # So when we assign value to it we won't get attribute error
+    @get_password.setter  # password setter
+    def password(self, password):
+        self.__password = password
+        return self.__password
+
 
 student1 = Student("Ayobami", 10, "Backend")
 
@@ -45,6 +60,9 @@ print(student1.getcohort())
 student1.changecohort(9)
 print(student1.getcohort())
 print(student1.name)
+
+# print(student1.password)
+print(student1.get_password)
 
 # Accessing the private attribute password
 # print(student1.__password)  # Will get AttributeError no such attribute
