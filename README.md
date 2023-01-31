@@ -14,6 +14,6 @@ practice the file in order it has been listed
 <li> <a href="https://github.com/Ayobami6/python_oop_practice/blob/master/OOP/class_composition.py">class_compositon.py</li>
 <li> <a href="https://github.com/Ayobami6/python_oop_practice/blob/master/OOP/class_magic_str-mtd.py">class_magic_str_mtd.py</li>
 <li> <a href="https://github.com/Ayobami6/python_oop_practice/blob/master/OOP/equality_compr_mtd.py">equality_compr_mtd.py</li>
-<li> <a href="https://github.com/Ayobami6/python_oop_practice/blob/master/OOP/equality_compr_mtd.py">magic_attr.py</li>
-<li> <a href="https://github.com/Ayobami6/python_oop_practice/blob/master/OOP/equality_compr_mtd.py">magic_call.py</li>
+<li> <a href="https://github.com/Ayobami6/python_oop_practice/blob/master/OOP/magic_attr.py">magic_attr.py</li>
+<li> <a href="https://github.com/Ayobami6/python_oop_practice/blob/master/OOP/magic_call.pyy">magic_call.py</li>
 </ol>
