@@ -21,7 +21,8 @@ class Student:
 
     # Overwriting the __repr__ function
     def __repr__(self):
-        return f"Name={self.name}, from={self.cohort}"
+        # return f"Name={self.name}, from={self.cohort}"
+        return f"Name is {self.name} from cohort {self.cohort}"
 
 
 # student object instantiation

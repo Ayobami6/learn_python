@@ -30,4 +30,5 @@ student1 = Student("Ayobami", 10, "Backend")
 print(student1)
 
 student1("Bunmi", 10, "Backend")
+# student1("Ayobami", "1", "Frontend")
 print(student1)
