@@ -52,8 +52,9 @@ class Student:
         return dict(name=self.name, spec=self.spec)
 
 
+student1 = Student("Ayobami", "Backend")
 # Getting the available specs
-print("Available specialization: ", Student.getspecs())
+print("Available specialization: ", student1.SPECIALIZATION)
 
 
 # Instantiatizing with invalid specs

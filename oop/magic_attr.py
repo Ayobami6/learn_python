@@ -45,4 +45,4 @@ student1.password = "New Password"
 
 print(student1.password)
 
-print(student1.pas)
+print(student1.cohort)

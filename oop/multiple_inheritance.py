@@ -22,6 +22,7 @@ class Student(AlxSchool, Database):
 
         Returns:
                 None
+
         """
         # Calling the base classess init function to access their attributes
         AlxSchool.__init__(self, name, specialization)
@@ -38,6 +39,7 @@ student1 = Student("Wisdom", "Backend", 10, 16548)
 
 print(student1.id)
 
+# print(student1.___mro__)
 student1.showattr()
 print(Student.__mro__)  # the magic method mro (method resolution order)
 # gets the order of class method or attr implementation
